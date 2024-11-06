@@ -1,0 +1,17 @@
+---
+ulm_language_variables:
+  variables:
+    ulm_currency: "Rp"
+    ulm_updates_available: "Pembaruan tersedia!"
+    ulm_no_updates_available: "Tidak ada pembaruan tersedia"
+    ulm_ophaling: "Garbage collection!"
+    ulm_geen_ophaling: "No collections"
+    ulm_volgende_ophaling: "Next collections"
+    ulm_morning: "Selamat pagi"
+    ulm_afternoon: "Selamat sore"
+    ulm_evening: "Selamat malam"
+    ulm_hello: "Halo"
+    ulm_volume: "Volume"
+    ulm_popups_color: "Warna"
+    ulm_radar: "Radar"
+    ulm_popup_total: "Total"

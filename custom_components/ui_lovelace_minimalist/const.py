@@ -39,6 +39,7 @@ LANGUAGES = {
     "Turkish": "tr",
     "Russian": "ru",
     "中文（简体）": "zh-CN",
+    "Indonesia": "id",
 }
 
 CONF_LANGUAGE = "language"
@@ -63,6 +64,7 @@ CONF_LANGUAGES = [
     "Turkish",
     "Russian",
     "中文（简体）",
+    "Indonesia",
 ]
 CONF_SIDEPANEL_ENABLED = "sidepanel_enabled"
 CONF_SIDEPANEL_TITLE = "sidepanel_title"

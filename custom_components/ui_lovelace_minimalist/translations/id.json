@@ -1,0 +1,68 @@
+{
+  "title": "UI Lovelace Minimalist",
+  "config": {
+      "step": {
+          "user": {
+              "title": "UI Lovelace Minimalist Pengaturan",
+              "description": "",
+              "data": {
+                  "community_cards_enabled": "Aktifkan kemampuan untuk mengonfigurasi comunity cards dengan integrasi ini. Membutuhkan autentikasi GitHub!"
+              }
+          },
+          "device": {
+              "title": "Menunggu aktivasi perangkat"
+          },
+          "reauth_confirm": {
+              "title": "Reauthentication needed",
+              "description": "Anda perlu melakukan autentikasi ulang dengan GitHub."
+          }
+      },
+      "abort": {
+          "single_instance_allowed": "Hanya satu konfigurasi UI Lovelace Minimalist yang diizinkan.",
+          "not_setup": "UI Lovelace Minimalist belum dikonfigurasi.",
+          "github": "Tidak dapat melakukan autentikasi dengan GitHub, coba lagi nanti.",
+          "reauth_successful": "Autentikasi ulang berhasil."
+      },
+      "progress": {
+          "wait_for_device": "1. Buka {url} \n2. Tempelkan kunci berikut untuk mengotorisasi ULM: \n```\n{code}\n```\n"
+      }
+  },
+  "options": {
+      "step": {
+          "user": {
+              "title": "UI Lovelace Minimalist Pengaturan",
+              "description": "",
+              "data": {
+                  "language": "Bahasa",
+                  "sidepanel_enabled": "Aktifkan pembuatan entri Dashboard di side panel.",
+                  "sidepanel_icon": "Ikon side panel",
+                  "sidepanel_title": "Judul side panel",
+                  "adaptive_ui_enabled": "Aktifkan Dashboard adaptif dengan popup splitview.",
+                  "adaptive_ui_title": "Judul panel adaptif",
+                  "adaptive_ui_icon": "Ikon panel adaptif",
+                  "theme": "Tema",
+                  "include_other_cards": "Sertakan sumber daya custom cards yang dibutuhkannya.",
+                  "community_cards_enabled": "Aktifkan kemampuan untuk mengonfigurasi community cards dengan integrasi ini. Memerlukan autentikasi GitHub!",
+                  "community_cards": "Pilih Community Cards yang ingin anda aktifkan."
+              }
+          }
+      },
+      "abort": {
+          "single_instance_allowed": "Hanya diperbolehkan satu konfigurasi UI Lovelace Minimalist.",
+          "not_setup": "UI Lovelace Minimalist belum dikonfigurasi."
+      },
+      "error": {
+          "github_cards": "Terjadi kesalahan saat mengambil cards dari GitHub.",
+          "ack": "Anda perlu mengonfirmasi semua pernyataan.",
+          "gh_token": "Token GitHub belum disetel. Harap pasang ulang integrasi ini untuk menjalani prosedur pengaturan. (Konfigurasi kustom tidak akan hilang)"
+      }
+  },
+  "services": {
+      "reload": {
+          "description": "Muat ulang konfigurasi dashboard untuk UI Lovelace Minimalist."
+      },
+      "installed": {
+          "description": "Ubah key yang terinstall di konfigurasi global untuk UI Lovelace Minimalist."
+      }
+  }
+}
